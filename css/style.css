@@ -417,7 +417,12 @@ footer {
   .card {
     width:100%
   }
+
+  .flip-card {
+    width: 80%;
+  }
 }
+
 
 /*
 Card Flip Safari Fix: https://stackoverflow.com/questions/36451688/css-card-flip-in-safari?rq=1
