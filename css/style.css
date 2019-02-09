@@ -54,6 +54,12 @@ body {
   display: none;
 }
 
+#about a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1e1e24;
+}
+
 #about img:not(.arrow) {
   margin-top: 2em;
 }
@@ -231,7 +237,7 @@ body {
 .flip-card-front {
   padding-top: 50px;
   background-color: #fed766;
-  color: black;
+  color: #1e1e24;
   
   z-index: 2;
   -webkit-transform: rotateY(0deg);
