@@ -1,331 +1,481 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Carlos E Ortega</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Civic - CV Resume">
+	<meta name="keywords" content="resume, civic, onepage, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
 
-    <title>Carlos E. Ortega</title>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/flaticon.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 </head>
 
-<header>
-    <div class="nav">
-        <div class="nav-header">
-            <div class="nav-title">
-                Carlos E. Ortega
-            </div>
-        </div>
-        <div class="nav-btn">
-            <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-        </div>
-        <input type="checkbox" id="nav-check">
-        <div class="nav-links">
-            <a href="#about" target="">About</a>
-            <a href="#projects" target="">Projects</a>
-            <a href="#resume" target="">Resume</a>
-            <a href="#contact" target="">Contact</a>
-            <a href="https://medium.com/soycarlos" target="_blank">Blog <i class="fa fa-external-link" aria-hidden="true"></i></a>
-            <!--<a href="creative.html" target="_blank">Creative</i></a>-->
-        </div>
-    </div>
-</header>
-
 <body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
 
-    <div class="main" id="about">
-        <img src="assets/me.png" height=250 weight=250 alt="Carlos Ortega" class="center">
-        <h1>Hi, I'm Carlos</h1>
-        <p>I am a Fourth-Year student at UC Berkeley studying Data Science with a domain emphasis in Cognition. I love
-            working with data, from the nitty-gritty cleaning to creating prediction models. In addition to data, I
-            also enjoy software development and try to program as much as I can during my free time. Currently, my time
-            is spent as a Web Editor for CCASN, as a Data Peer Consultant at the Division of
-            Data Sciences, and as <a href="https://caltv.berkeley.edu/" target="_blank">CalTV's</a> Executive Director.
-        </p>
-        <p>Feel free to reach out if you want to chat!</p>
-        <p id="email"><a href="mailto:me@carlos.soy">me@carlos.soy</a></p>
-        <a href="#projects">
-            <center><img src="assets/arrow.svg" height=100 class="image arrow"></center>
-        </a>
-    </div>
+	<!-- Header section start -->
+	<header class="header-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="site-logo">
+						<h2><a href="#">Carlos</a></h2>
+						<p>Student & Data Scientist</p>
+					</div>
+				</div>
+				<div class="col-md-8 text-md-right header-buttons">
+					<a href="https://drive.google.com/file/d/1YGQM48CMaN13wPEWRVC0DxQhxPljMFJy/view?usp=sharing" target="_blank" class="site-btn">Download Resume</a>
+					<a href="https://blog.carlos.soy" target="_blank" class="site-btn">Blog</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header section end -->
 
-    <div class="main" id="projects">
-        <h1>Selected Work & Projects</h1>
+	<!-- Hero section start -->
+	<section class="hero-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-1">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="hero-text">
+								<h2>Carlos Eduardo Ortega</h2>
+								<p>I’m a Data Science student with an interest in NLP, Civic Tech, and Social Impact.
+								</p>
+							</div>
+							<div class="hero-info">
+								<h2>General Info</h2>
+								<ul>
+									<li><span>E-mail</i></span><a href="mailto:me@carlos.soy">me@carlos.soy</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<figure class="hero-image">
+								<img src="img/hero.JPG" alt="5">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section end -->
 
-        <label class="btn" for="modal-1">
-            <div class="card">
-                <div class="container">
-                    <h4><b>Transit Visualization</b></h4>
-                    <p>Web App (In Progress)</p>
-                </div>
-            </div>
-        </label>
+	<!-- Social links section start -->
+	<div class="social-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-1">
+					<div class="social-link-warp">
+						<div class="social-links">
+							<a href="https://github.com/SoyCarlos" target="_blank"><i class="fa fa-github"></i></a>
+							<a href="https://www.linkedin.com/in/soycarlos/" target="_blank"><i
+									class="fa fa-linkedin"></i></a>
+							<a href="https://twitter.com/SoyCarlosEO" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="https://medium.com/@soycarlos" target="_blank"><i class="fa fa-medium"></i></a>
+						</div>
+						<h2 class="hidden-md hidden-sm">My Social Profiles</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Social links section end -->
 
-        <label class="btn" for="modal-phone">
-            <div class="card">
-                <div class="container">
-                    <h4><b>Show Me Your Phone: Analyzing My Text Messages</b></h4>
-                    <p>Blog Post (Python, Jupyter Notebooks)</p>
-                </div>
-            </div>
-        </label>
+	<!-- Resume section start -->
+	<section class="resume-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-7 offset-xl-2">
+					<div class="section-title">
+						<h2>Work Experience</h2>
+					</div>
+					<ul class="resume-list">
+						<li>
+							<h2>2018-2019</h2>
+							<h3>UC Berkeley Division of Data Sciences</h3>
+							<h4>Peer Data Science Consultant</h4>
+							<p>The Peer Data Science Consulting team is dedicated to making data science more accessible
+								to undergraduates by providing support for courses using data science methods with a
+								lack in course staff and supporting undergraduates in their research.
+							</p>
+						</li>
+						<li>
+							<h2>Summer 2019</h2>
+							<h3>U.S. Census Bureau</h3>
+							<h4>Data Science Civic Digital Fellow</h4>
+							<p>Developed probabilistic frame-matching program using string matching algorithms to
+								speed up process previously done manually.
 
-        <label class="btn" for="modal-3">
-            <div class="card">
-                <div class="container">
-                    <h4><b>Have Sad Bois Taken Over the Radio?</b></h4>
-                    <p>Data Science Research Project (Python)</p>
-                </div>
-            </div>
-        </label>
+								Developed web crawler and scraper in Python to automate the maintenance of publicsector
+								collections to identify relevant pages and information.
 
-        <label class="btn" for="modal-2">
-            <div class="card">
-                <div class="container">
-                    <h4><b>Spotify Anti-Playlist Generator</b></h4>
-                    <p>Web App (Python, Flask, HTML, CSS)</p>
-                </div>
-            </div>
-        </label>
+								Joined as a Civic Digital Fellow, a program bringing in students to solve problems in
+								federal agencies.
+							</p>
+						</li>
+						<li>
+							<h2>2018-2019</h2>
+							<h3>UC Berkeley Library</h3>
+							<h4>Data Science Fellow</h4>
+							<p>Provide leadership and peer support in the data sciences to undergraduates conducting
+								research in an area such as data visualization, machine learning, text analysis,
+								regression modeling, or other data science methods.
+							</p>
+						</li>
+						<li>
+							<h2>2017-2018</h2>
+							<h3>UC Berkeley Statistics</h3>
+							<h4>Foundations of Data Science Staff - Group Tutor</h4>
+							<p>Provide tutoring to small groups teaching programming fundamentals, data visualization,
+								and statistical inference techniques, and held weekly office hours to assist students
+								with ongoing coursework.
 
-        <label class="btn" for="modal-4">
-            <div class="card">
-                <div class="container">
-                    <h4><b>CS61BYoG</b></h4>
-                    <p>Data Structures Course Project (Java)</p>
-                </div>
-            </div>
-        </label>
+								Develop worksheets, lead review sessions and create videos on hypothesis testing, data
+								visualization, and classification techniques.
+							</p>
+						</li>
+						<li>
+							<h2>Summer 2018</h2>
+							<h3>International Computer Science Institute</h3>
+							<h4>Student Assistant</h4>
+							<p>Helped develop programming exercises in JavaScript and Python to teach students about
+								online privacy through projects on geolocation, HTTP cookies, and data aggregation.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Resume section end -->
 
-        <label class="btn" for="modal-5">
-            <div class="card">
-                <div class="container">
-                    <h4><b>Bear Maps</b></h4>
-                    <p>Data Structures Course Project (Java)</p>
-                </div>
-            </div>
-        </label>
+	<!-- Education section start -->
+	<section class="resume-section with-bg spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-7 offset-xl-2">
+					<div class="section-title">
+						<h2>Education</h2>
+					</div>
+					<ul class="resume-list">
+						<li>
+							<h2>Expected 2021</h2>
+							<h3>BA Data Science</h3>
+							<h4>UC Berkeley</h4>
+							<p>Coursework in Foundations of Data Science, Principles & Techniques of Data Science, Data
+								Structures, and Structure & Interpretation of Computer Programs.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Educaation section end -->
+
+	<!-- Volunteer Section Start-->
+	<section class="resume-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-7 offset-xl-2">
+					<div class="section-title">
+						<h2>Leadership & Volunteer Work</h2>
+					</div>
+					<ul class="resume-list">
+						<li>
+							<h2>2019-Present</h2>
+							<h3><a href="https://towardsdatascience.com" target="_blank">Towards Data Science</a></h3>
+							<h4>Editorial Associate</h4>
+							<p>As an Editorial Associate, I review submissions, provide
+								feedback to authors, and recommend pieces for publication.
+							</p>
+						</li>
+						<li>
+							<h2>2018-2019</h2>
+							<h3><a href="https://caltv.berkeley.edu" target="_blank">CalTV</a></h3>
+							<h4>Executive Director</h4>
+							<p>Managed an organization of over 100 members. As one of the two Executive Directors, I
+								facilitated meetings with members, other student organizations and external companies. I
+								managed big picture planning for the organization as well as provided oversight on the
+								day-to-day operations. In addition to this, I managed tens of thousands of dollars,
+								succesfully applied to grants and secured additional operational funding to scale the
+								organization.
+							</p>
+						</li>
+						<li>
+							<h2>2017-2018</h2>
+							<h3><a href="https://caltv.berkeley.edu" target="_blank">CalTV</a></h3>
+							<h4>Director of Post-Production</h4>
+							<p>As the co-Director of Post-Production, I managed a team of 20 editors tasked with editing
+								and uploading all videos for the organization. I developed teaching material to help
+								editors gain additional skills and assisted the rest of the directors in expanding the
+								organization.
+							</p>
+						</li>
+						<li>
+							<h2>Fall 2018</h2>
+							<h3><a href="https://saas.berkeley.edu" target="_blank">Student Association for Applied
+									Statistics</a></h3>
+							<h4>Research & Publications Member</h4>
+							<p>As a member of the R&P Committee, I conducted independent research on the trends in the
+								music charts in the U.S. over time. Applied sentiment analysis to the top 100 songs of
+								each year from 1965-2015 to find trends in music across the decades. Worked with the
+								Spotify API and Google's Cloud Natural Language API.
+							</p>
+						<li>
+							<h2>Spring 2017</h2>
+							<h3>UC Berkeley EECS</h3>
+							<h4>Foundations of Data Science - Academic Intern</h4>
+							<p>Assisted students with labs in CS C8 (also known as Data 8), an introductory course to
+								Data Science.
+							</p>
+						</li>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Volunteer Section End-->
+
+	<!-- Review section start -->
+	<!-- <section class="review-section spad pb-0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-7 offset-xl-2">
+					<div class="section-title">
+						<h2>References</h2>
+					</div>
+					<div class="review-slider owl-carousel">
+						<div class="single-review">
+							<div class="qut">“</div>
+							<p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra.
+								Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in
+								dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor.
+								Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>
+							<h3>Robert G. Smith</h3>
+							<h4>Manager, Company</h4>
+						</div>
+						<div class="single-review">
+							<div class="qut">“</div>
+							<p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra.
+								Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in
+								dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor.
+								Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>
+							<h3>Robert G. Smith</h3>
+							<h4>Manager, Company</h4>
+						</div>
+						<div class="single-review">
+							<div class="qut">“</div>
+							<p>Sit amet, consectetur adipiscing elit. Sed porttitor orci ut sapien scelerisque viverra.
+								Sed trist ique justo nec mauris efficitur, ut lacinia elit dapibus. In egestas elit in
+								dap ibus laoreet. Duis magna libero, fermentum ut facilisis id, pulvinar eget tortor.
+								Vestibulum pelle ntesque tincidunt lorem, vitae euismod felis porttitor sed. </p>
+							<h3>Robert G. Smith</h3>
+							<h4>Manager, Company</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- Review section end -->
 
 
-        <a href="#resume">
-            <center><img src="assets/arrow.svg" height=100 class="image arrow"></center>
-        </a>
-    </div>
+	<!-- Portfolio section start -->
+	<section class="portfolio-section spad pb-0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-4 col-md-8 offset-xl-2 ">
+					<div class="section-title">
+						<h2>Selected Work</h2>
+					</div>
+				</div>
+				<div class="col-md-4 text-md-right">
+					<a href="https://github.com/SoyCarlos" target="_blank" class="site-btn mb-5">See More Work on
+						Github</a>
+				</div>
+			</div>
+			<div class="portfolio-warp">
+				<div class="row">
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/1.jpg" class="set-bg port-pic" data-setbg="img/portfolio/1.jpg"></a>
+							<h2>Show Me Your Phone: Analyzing My Text Messages</h2>
+							<p>Python, Jupyter Notebooks</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/2.jpg" class="set-bg port-pic" data-setbg="img/portfolio/2.jpg"></a>
+							<h2>Have Sad Bois Taken Over the Radio?</h2>
+							<p>Python, Jupyter Notebooks</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/3.jpg" class="set-bg port-pic" data-setbg="img/portfolio/3.jpg"></a>
+							<h2>Spotify Anti-Playlist Generator</h2>
+							<p>Python, Flask, HTML, CSS</p>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<div class="portfolio-item">
+							<a href="img/portfolio/4.jpg" class="set-bg port-pic" data-setbg="img/portfolio/4.jpg"></a>
+							<h2>Bear Maps</h2>
+							<p>Java</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Portfolio section end -->
 
-    <div class="main" id="resume">
-        <h1>Resume</h1>
-        <h2>Education</h2>
-        <h4>University of California, Berkeley</h4>
-        <h4>B.A. Data Science, Expected Graduation Summer 2020</h4>
-        <br>
-        <a>Relevant Courses</a>
-        <ul>
-            <li>Foundations of Data Science</li>
-            <li>Principles & Techniques of Data Science</li>
-            <li>Structure & Interpretation of Computer Programs</li>
-            <li>Data Structures</li>
-            <li>Computational Models of Cognition</li>
-            <li>Introduction to Database Systems (In Progress)</li>
-            <li>Probability for Data Science (In Progress)</li>
-        </ul>
+	<!-- Extra section start -->
+	<!-- <section class="extra-section spad pb-0">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-8 offset-xl-2">
+					<div class="section-title">
+						<h2>Extra Skills</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-6 pt-5">
+							<div class="fact-box trans">
+								<div class="fact-content">
+									<div class="circle-progress">
+										<div id="progress1" class="prog-circle"></div>
+										<div class="progress-info">
+											<h2>100%</h2>
+										</div>
+										<div class="prog-title">
+											<h3>Dedication</h3>
+											<p>Drinking my body weight in coffee.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 pt-5">
+							<div class="fact-box trans">
+								<div class="fact-content">
+									<div class="circle-progress">
+										<div id="progress2" class="prog-circle"></div>
+										<div class="progress-info">
+											<h2>80%</h2>
+										</div>
+										<div class="prog-title">
+											<h3>Detail-Oriented</h3>
+											<p>Perfecting my Banana Bread recipe one iteration at a time.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="fact-box">
+								<div class="fact-content">
+									<img src="img/icon/1-w.png" alt="">
+									<h2>14</h2>
+									<p>Years of Experience</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="fact-box">
+								<div class="fact-content">
+									<img src="img/icon/2-w.png" alt="">
+									<h2>9</h2>
+									<p>Awards Won</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- Extra section end -->
 
-        <hr>
-        <div class="main" id="work">
-            <h2>Work Experience</h2>
-            <h4>Data Science Civic Digital Fellow, U.S. Census Bureau</h4>
-            <h5>June 2019 - August 2019</h5>
-            <ul>
-                <li>Developed a probabilistic fuzzy-matching program with Python, Flask, SQLite3, and
-                    HTML to speed up processes previously done manually.</li>
-                <li>Developed a web crawler and scraper in Python with Scrapy and scikit-learn to automate
-                    the maintenance of public-sector data collections.</li>
-            </ul>
-            <h4>Data Science Fellow, UC Berkeley Library</h4>
-            <h5>August 2018 - May 2019</h5>
-            <ul>
-                <li>Presented a workshop for Librarians on Introduction to Jupyter Notebooks and Python
-                    for student research.</li>
-                <li>Held weekly drop-in hours supporting undergraduates conducting research in areas
-                    such as data visualization, text analysis, and regression modeling.</li>
-            </ul>
-            <h4>Foundations of Data Science Course Staff (Group Tutor), UC Berkeley Statistics/EECS</h4>
-            <h5>August 2017 - December 2018</h5>
-            <ul>
-                <li>Provided tutoring to small groups on programming fundamentals, data visualizations,
-                    and statistical inference techniques, and held weekly office hours.</li>
-                <li>Developed worksheets, led review sessions and created videos on hypothesis testing,
-                    data visualization, and classification techniques.</li>
-            </ul>
-            <h4>Student Assistant, International Computer Science Institute</h4>
-            <h5>May 2018 - August 2018</h5>
-            <ul>
-                <li>Helped develop programming exercises in JavaScript and Python to teach students about online
-                    privacy
-                    through projects on geolocation, HTTP cookies, and data aggregation.</li>
-            </ul>
-        </div>
+	<!-- Contact section start -->
+	<!-- <section class="contact-section spad">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-8 offset-xl-2">
+					<div class="section-title">
+						<h2>Contact Me</h2>
+					</div>
+					<form class="contact-form">
+						<div class="row">
+							<div class="col-md-6">
+								<input type="text" placeholder="Name">
+							</div>
+							<div class="col-md-6">
+								<input type="text" placeholder="E-mail">
+							</div>
+							<div class="col-md-12">
+								<input type="text" placeholder="Subject">
+								<textarea placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="text-md-right">
+							<button class="site-btn">Send message</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- Contact section end -->
 
-        <hr>
+	<!-- Footer section start -->
+	<footer class="footer-section">
+		<div class="container text-center">
+			<div class="copyright">
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				Copyright &copy;
+				<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+				with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+					target="_blank">Colorlib</a>
+				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
 
-        <div class="main" id="lead">
-            <h2>Leadership</h2>
-            <h4>CalTV</h4>
-            <h5>Executive Director</h5>
-            <h5>April 2018 - Present</h5>
-            <ul>
-                <li>Managed hundreds of members,
-                    formed strategic partnerships with external organizations and companies to better serve
-                    the media needs of the student body, and managed tens of thousands of dollars.</li>
-            </ul>
-            <h5>Post-Production Director</h5>
-            <h5>May 2017 - April 2018</h5>
-            <ul>
-                <li>Managed a team of 20 editors tasked with editing and uploading all videos for the organization. Led
-                    bootcamps and weekly trainings to teach post-production skills to members.</li>
-            </ul>
-        </div>
 
-        <hr>
-
-        <h2>Skills</h2>
-        <a><b>Proficient: </b> Python, Java, SQL, Data Visualizations, NLP, Git, Pandas</a>
-        <br>
-        <a><b>Familiar: </b>HTML, CSS, Flask, JavaScript, Machine Learning</a>
-
-        <a href="#contact">
-            <center><img src="assets/arrow.svg" height=100 class="image arrow"></center>
-        </a>
-    </div>
-    <div class="main" id="contact">
-        <center>
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <h1>Carlos E. Ortega</h1>
-                        <h3>UC Berkeley Undergraduate Student</h3>
-                    </div>
-                    <div class="flip-card-back">
-                        <ul>
-                            <li><a href="https://github.com/SoyCarlos" target="_blank">GitHub: @SoyCarlos</a></li>
-                            <li><a href="https://www.linkedin.com/in/soycarlos/" target="_blank">LinkedIn:
-                                    /in/SoyCarlos</a></li>
-                            <li><a href="mailto:me@carlos.soy">Email: me@carlos.soy</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </center>
-    </div>
-
-    <!-- <input class="modal-state" id="modal-1" type="checkbox" />
-    <div class="modal">
-        <label class="modal__bg" for="modal-1"></label>
-        <div class="modal__inner">
-            <label class="modal__close" for="modal-1"></label>
-        </div>
-    </div> -->
-
-    <input class="modal-state" id="modal-2" type="checkbox" />
-    <div class="modal">
-        <label class="modal__bg" for="modal-2"></label>
-        <div class="modal__inner">
-            <label class="modal__close" for="modal-2"></label>
-            <h2>Spotify Anti-Playlist Generator</h2>
-            <p>Anti-Playlist takes a user's Spotify Playlist URL and uses Glenn McDonald's everynoise.com website to
-                find the "opposite" of as many genres in the playlist as possible. Glenn McDonald's algorithm uses a
-                12-dimensional analytical space to represent the 12 attributes used, Acousticness, Beat Strength,
-                Bounciness, Danceability, Dynamic Range Mean, Flatness, Energy, Loudness, Mechanism, Organicness,
-                Tempo, Valence).</p>
-            <a href="https://github.com/SoyCarloss/CalHacks-Anti-Playlist" target="_blank"><b>GitHub Repo</b></a>
-        </div>
-    </div>
-
-    <input class="modal-state" id="modal-phone" type="checkbox" />
-    <div class="modal">
-        <label class="modal__bg" for="modal-phone"></label>
-        <div class="modal__inner">
-            <label class="modal__close" for="modal-phone"></label>
-            <h2>Show Me Your Phone: Analyzing My Text Messages</h2>
-            <p>Analyzed my text conversations with SQLite3 & Python.</p>
-            <a href="https://medium.com/soycarlos/show-me-your-phone-analyzing-my-text-messages-6a2b70d8f776" target="_blank"><b>Blog Post</b></a>
-            <br>
-            <a href="https://github.com/SoyCarlos/iMessage-Analysis" target="_blank"><b>GitHub Repo</b></a>
-        </div>
-    </div>
-
-    <input class="modal-state" id="modal-3" type="checkbox" />
-    <div class="modal">
-        <label class="modal__bg" for="modal-3"></label>
-        <div class="modal__inner">
-            <label class="modal__close" for="modal-3"></label>
-            <h2>Have Sad Bois Taken Over the Radio?</h2>
-            <p>Research Project done while part of Statistic Undergraduate Student Association's Research &
-                Publications Committee.
-            </p>
-            <a href="https://medium.com/soycarlos/have-sad-bois-taken-over-the-radio-2d42d9618073" target="_blank"><b>Blog
-                    Post</b></a>
-            <br>
-            <a href="https://github.com/SoyCarloss/SUSA-Research-MusicMoods" target="_blank"><b>GitHub Repo</b></a>
-        </div>
-    </div>
-
-    <input class="modal-state" id="modal-4" type="checkbox" />
-    <div class="modal">
-        <label class="modal__bg" for="modal-4"></label>
-        <div class="modal__inner">
-            <label class="modal__close" for="modal-4"></label>
-            <h2>CS61BYoG</h2>
-            <p>Independently developed 2D tile-based game with pseudo-random worlds in Java.
-            </p>
-            <img src="assets/cs6byog_menu.png" width=100%>
-            <img src="assets/cs61byog_game.png" width=100%>
-            <img src="assets/cs61byog_quit.png" width=100%>
-        </div>
-    </div>
-
-    <input class="modal-state" id="modal-5" type="checkbox" />
-    <div class="modal">
-        <label class="modal__bg" for="modal-5"></label>
-        <div class="modal__inner">
-            <label class="modal__close" for="modal-5"></label>
-            <h2>Bear Maps</h2>
-            <p>Wrote the back-end to a web mapping application and applied the A* algorithm to find the shortest path
-                between two points on a map in Berkeley.
-            </p>
-            <img src="assets/bear_maps.gif" width=100%>
-        </div>
-    </div>
-
-    <input class="modal-state" id="modal-6" type="checkbox" />
-    <div class="modal">
-        <label class="modal__bg" for="modal-6"></label>
-        <div class="modal__inner">
-            <label class="modal__close" for="modal-6"></label>
-            <h2>What Are the Odds?</h2>
-            <p>What are the odds is a game I learned in high school. It's very similar to a dare in that it is usually
-                used when a group of friends is trying to get one another to do something they usually wouldn't. The
-                rules are simple, the friend being challenged names the odds, 1 to whatever they please. The higher the
-                bound the lower the chance they'll have to do it. Once it's named, say 1 to 10. The challenger and the
-                challenged countdown from 3 and say a number between 1 and, in this case, 10, at the same time. If they
-                say the same number or the two numbers add up to the upper bound, the challenged friend has to do
-                whatever they agreed upon.
-                <br>
-                This short program is the first project I created upon having learned to code in Python. This is a
-                short, but fun, game run within the terminal. </p>
-            <img src="assets/WATO.png" width="100%">
-            <a href="https://github.com/SoyCarloss/WATO" target="_blank"><b>GitHub Repo</b></a>
-        </div>
-    </div>
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
-
-<footer>
-    <p>Carlos E. Ortega 2019</p>
-</footer>
 
 </html>
