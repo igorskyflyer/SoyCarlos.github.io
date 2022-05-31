@@ -4,6 +4,8 @@
 {% include head.html %}
 
 <body>
+  <script
+    src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=pt_b1c4b051d0d6249afec99585c8686f&disableSessionId"></script>
   {% include header.html %}
 
   <div class="flex flex-col-reverse justify-center items-center lg:flex-row">
@@ -13,12 +15,16 @@
       <div class="text-sm">{{page.date-written}}</div>
       <img src="{{page.hero_image | relative_url}}" alt="Hero Image" class="">
       <div class="text-center">
-        Photo by <a href="{{page.hero_image_owner_url}}" target="_blank" class="underline">{{page.hero_image_owner}}</a> on <a
-          href="{{page.hero_image_location_url}}" target="_blank" class="underline">{{page.hero_image_location}}</a>
+        Photo by <a href="{{page.hero_image_owner_url}}" target="_blank" class="underline">{{page.hero_image_owner}}</a>
+        on <a href="{{page.hero_image_location_url}}" target="_blank" class="underline">{{page.hero_image_location}}</a>
       </div>
       <div class="p-5">
         {{ content }}
       </div>
+      <div data-lyket-type="clap" data-lyket-id="{{page.data_lyket_id}}"></div>
+      <script defer src="https://cdn.commento.io/js/commento.js"></script>
+      <noscript>Please enable JavaScript to load the comments.</noscript>
+      <div id="commento"></div>
     </div>
   </div>
 
