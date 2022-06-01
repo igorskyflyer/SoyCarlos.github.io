@@ -31,3 +31,4 @@ I started working with a dataset curated by @walkerkq on GitHub (https://github.
 
 
 I started working with a dataset curated by @walkerkq on GitHub (https://github.com/walkerkq/musiclyrics). The dataset has the song name, artist, rank, lyrics, and the year it was on the Billboard Top 100 Charts for all songs in the Billboard Top 100 Charts from 1965 to 2015. I used Pandas to read the csv file into a Python notebook. I added a column, ‘Query’ which I would use when working with Spotify’s API afterward.
+zw

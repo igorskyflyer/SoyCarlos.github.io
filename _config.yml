@@ -2,6 +2,7 @@ url: "https://github.com/SoyCarlos/SoyCarlos.github.io" # the base hostname & pr
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Carlos E Ortega S" # the name of your site, e.g. ACME Corp.
 
+
 plugins:
   - jekyll-postcss
 
