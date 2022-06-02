@@ -6,7 +6,7 @@ hero:
   alt: Notion-style illustration of Carlos
 ---
 
-By Day, I work as a <a class="font-bold">Data Engineer</a> @ <a href="https://www.entidad.io/" target="_blank" class="underline font-bold">Entidad</a>. By night, I'm helping launch <a href="https://openpatterson.org/" target="_blank" class="font-bold underline">Open Patterson</a>, a <a href="https://brigade.codeforamerica.org/" target="_blank" class="underline">Code for America Brigade</a>. Besides that, I am currently obsessed with prosciutto and burrata on toasted sourdough bread.
+By day, I work as a <a class="font-bold">Data Engineer</a> @ <a href="https://www.entidad.io/" target="_blank" class="underline font-bold">Entidad</a>. By night, I'm helping launch <a href="https://openpatterson.org/" target="_blank" class="font-bold underline">Open Patterson</a>, a <a href="https://brigade.codeforamerica.org/" target="_blank" class="underline">Code for America Brigade</a>. Besides that, I am currently obsessed with prosciutto and burrata on toasted sourdough bread.
 <br>
 <br>
 I was born and raised in <a href="https://en.wikipedia.org/wiki/Patterson%2C_California" target="_blank" class="underline">Patterson, CA.</a> A small rural-ish town with a love for Apricots and Roundabouts. I graduated from Patterson High School in 2016.  
