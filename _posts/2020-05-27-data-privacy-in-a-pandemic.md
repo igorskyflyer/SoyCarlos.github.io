@@ -27,7 +27,11 @@ First, they isolate the infected person to prevent further spread, and then they
 So, what have governments and private companies been doing to bring the process to the digital world? Well, let’s discuss the two approaches being used.
 <br><br>
 
-<img src="">
+<img src="/assets/img/blog/data-privacy-pandemic/electric_cabinets.jpg" alt="Room full of servers" class="">
+<div class="text-center">Photo by <a href="https://unsplash.com/@ismailenesayhan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="underline">İsmail Enes Ayhan
+</a>on <a href="https://unsplash.com/s/photos/centralized-server?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="underline">Unsplash</a>
+</div>
+
 <h1 class="text-2xl pt-5 font-black">Centralized Approach</h1>
 In a centralized approach, a user’s phone sends their GPS location to a central server, along with the time they were there. Both, United Kingdom’s NHS and France, have decided to go this route.
 <br><br>
@@ -57,7 +61,13 @@ India, the world’s largest democracy, has already required citizens to downloa
 <br><br>
 
 As a result of moves like these, a programmer in <a href="https://www.buzzfeednews.com/article/pranavdixit/india-aarogya-setu-hacked" target="_blank" class="underline">India has circumvented the app</a>. Now, they walk freely with a constantly showing the ‘Safe’ badge without broadcasting any data. This is the best-case scenario. Experts have shared concerns of <a href="https://www.brookings.edu/techstream/inaccurate-and-insecure-why-contact-tracing-apps-could-be-a-disaster/" target="_blank" class="underline">individuals sending out false-positives</a>. Doing so, would end up causing more harm than good.
-<img src="">
+<br><br>
+
+<img src="/assets/img/blog/data-privacy-pandemic/person_on_phone.jpeg" alt="Woman wearing mask looking at phone." class="">
+<div class="text-center">Photo by <a href="https://www.pexels.com/es-es/@ketut-subiyanto?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank" class="underline">Ketut Subiyanto
+</a>on <a href="https://www.pexels.com/es-es/foto/mujer-telefono-inteligente-vehiculo-efecto-desenfocado-4429299/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank" class="underline">Pexels</a>
+</div>
+
 <h1 class="text-2xl pt-5 font-black">Decentralized Approach</h1>
 The decentralized approach has been led by a collaboration between <a href="https://www.apple.com/newsroom/2020/04/apple-and-google-partner-on-covid-19-contact-tracing-technology/" target="_blank" class="underline">Apple and Google</a>. Both companies have recently sent out updates to their respective phones that adds this opt-in API.
 <br><br>
