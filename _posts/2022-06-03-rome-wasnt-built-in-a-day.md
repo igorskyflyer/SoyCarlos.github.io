@@ -2,7 +2,7 @@
 layout: post
 title: "Rome Wasn't Built In a Day: But This Website Was"
 subtitle: "My Thought Process Going into Rebuilding My Site From Scratch"
-date: 2022-06-03 02:00:00AM
+date: 2022-06-03 08:00:00AM
 date-written: "June 3, 2022"
 blurb: "When I first built out my personal website during my undergrad in January 2018, I took the course most students in tech take and used a free template from HTML5 UP. Specifically, I used the Dimension template and it was great. It served its purpose for an undergrad student with limited experience with HTML/CSS that was looking for internships."
 hero_image: "assets/img/blog/rome-new-website/hero.jpg"
@@ -44,7 +44,7 @@ This website was short-lived. I continued learning a bit more HTML + CSS, and by
 
 <br>
 
-<div class="justify-center flex"><img src="/assets/img/blog/rome-new-website/website-gen3.gif" alt="Image of Website" class=""></div>
+<div class="justify-center flex"><img src="/assets/img/blog/rome-new-website/website-gen3.gif" alt="Image of Website" class="w-full object-cover md:w-4/5"></div>
 
 <br>
 
@@ -56,7 +56,7 @@ That design served me well, and I used it for over a year. Whenever I started/en
 
 <br>
 
-<div class="justify-center flex"><img src="/assets/img/blog/rome-new-website/website-gen4.gif" alt="Image of Website" class=""></div>
+<div class="justify-center flex"><img src="/assets/img/blog/rome-new-website/website-gen4.gif" alt="Image of Website" class="w-full object-cover md:w-4/5"></div>
 
 <br>
 
