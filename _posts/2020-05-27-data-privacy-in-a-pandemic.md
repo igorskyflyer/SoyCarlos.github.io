@@ -10,6 +10,7 @@ hero_image_owner: "Tim Mossholder"
 hero_image_owner_url: "https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
 hero_image_location: "Unsplash"
 hero_image_location_url: "https://unsplash.com/s/photos/corona?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+reading_duration: "6"
 data_lyket_id: "pandemic-privacy"
 ---
 Originally published on <a href="https://medium.com/towards-data-science/data-privacy-in-a-pandemic-901e828b850a" target="_blank" class="italic underline">Towards Data Science</a>

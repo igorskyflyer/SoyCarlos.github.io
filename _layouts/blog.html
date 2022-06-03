@@ -11,9 +11,10 @@
       <div class="flex flex-col">
         {% for post in site.posts %}
         <div class="flex flex-col py-5">
-          <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="text-3xl font-bold">{{post.title}}</a>
-          <a href="" class="text-xl">{{post.subtitle}}</a>
-          <a href="" class="text-sm">{{post.date-written}}</a>
+          <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="text-3xl font-bold hover:underline">{{post.title}}</a>
+          <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="text-xl">{{post.subtitle}}</a>
+          <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="text-sm">{{post.date-written}} &bull; {{ post.reading_duration }} min read</a>
+          <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="text-md">{{ post.blurb }}</a>
         </div>
         {% endfor %}
       </div>

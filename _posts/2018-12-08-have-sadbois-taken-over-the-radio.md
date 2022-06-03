@@ -10,6 +10,7 @@ hero_image_owner: "Mohammad Metri"
 hero_image_owner_url: "https://unsplash.com/photos/1oKxSKSOowE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
 hero_image_location: "Unsplash"
 hero_image_location_url: "https://unsplash.com/search/photos/music?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+reading_duration: "5"
 data_lyket_id: "sadbois"
 ---
 <h1 class="text-2xl pt-5 font-black">Introduction</h1>
