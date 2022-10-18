@@ -1,11 +1,18 @@
 # Comment out roles you don't want included
 
+- company: Amazon
+  company_website: https://www.amazon.com/
+  position: Software Development Engineer
+  location: Remote
+  duration: Oct, 2022 &mdash; Present
+  summary: <li>Developing...</li>
+
 - company: Entidad
   company_website: https://www.entidad.io/
   position: Data Engineer
   location: Remote
-  duration: Nov, 2021 &mdash; Present
-  summary: <li>Building data pipelines lakes warehouses and dashboards to serve the underserved.</li>
+  duration: Nov, 2021 &mdash; Oct, 2022
+  summary: <li>Building data pipelines, lakes, warehouses, and dashboards to serve the underserved.</li>
 
 - company: Entidad
   company_website: https://www.entidad.io/
