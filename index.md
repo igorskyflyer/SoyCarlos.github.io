@@ -6,7 +6,7 @@ hero:
   alt: Notion-style illustration of Carlos
 ---
 
-<s>By day, I work as a <a class="font-bold">Software Development Engineer</a> @ <a href="https://www.amazon.com/" target="_blank" class="underline font-bold">Amazon</a>Unfortunately, I was part of the latest round of Amazon layoffs. I am currently seeking opportunities in Back-End or Full Stack Development.</s>. By night, I'm helping launch <a href="https://openpatterson.org/" target="_blank" class="font-bold underline">Open Patterson</a>, a <a href="https://brigade.codeforamerica.org/" target="_blank" class="font-bold underline">Code for America Brigade</a>, and serving on the Board of Directors @ <a href="https://www.lovestanislauscounty.org/" target="_blank" class="font-bold underline">Love Stanislaus</a>.
+<s>By day, I work as a <a class="font-bold">Software Development Engineer</a> @ <a href="https://www.amazon.com/" target="_blank" class="underline font-bold">Amazon</a></s>Unfortunately, I was part of the latest round of Amazon layoffs. I am currently seeking opportunities in Back-End or Full Stack Development. By night, I'm helping launch <a href="https://openpatterson.org/" target="_blank" class="font-bold underline">Open Patterson</a>, a <a href="https://brigade.codeforamerica.org/" target="_blank" class="font-bold underline">Code for America Brigade</a>, and serving on the Board of Directors @ <a href="https://www.lovestanislauscounty.org/" target="_blank" class="font-bold underline">Love Stanislaus</a>.
 <br>
 <br>
 I was born and raised in <a href="https://en.wikipedia.org/wiki/Patterson%2C_California" target="_blank" class="underline">Patterson, CA.</a> A small rural-ish town with a love for Apricots and Roundabouts. I graduated from Patterson High School in 2016.  
