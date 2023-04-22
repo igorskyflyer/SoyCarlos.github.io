@@ -42,7 +42,8 @@ P.S. Google Drive, Microsoft OneDrive, iCloud, and similar solutions can also be
 **For Documents**
 - [Google Drive](drive.google.com/)
 - [Microsoft OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/pc-cloud-backup)
-- [iCloud for Apple Pages, Numbers, or Keynote](https://www.icloud.com/)
+- [iCloud for Apple Pages, Numbers, or Keynote](https://www.icloud.com/)  
+
 **For Programming Projects**
 - [GitHub](https://github.com/)
 - [GitLab](https://about.gitlab.com/)
