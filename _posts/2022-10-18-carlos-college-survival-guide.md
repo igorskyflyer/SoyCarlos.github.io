@@ -48,7 +48,7 @@ P.S. Google Drive, Microsoft OneDrive, iCloud, and similar solutions can also be
 - [GitHub](https://github.com/)
 - [GitLab](https://about.gitlab.com/)
 
-**The Calendar**
+**The Calendar**  
 This one is simple, either use Apple Calendar, Google Calendar, or Outlook Calendar. Add everything there:
 - Classes
     - Attach building + Room number
@@ -177,7 +177,7 @@ Personally, as a Chicano coming from a town where over 60% of folks are Latino, 
 
 I quickly moved past that, accepting that the Tech industry that I wanted to enter would be even worse, so I had to get used to it. However, I also took simple steps, so that I did not always feel isolated:
 
-1. Attend heritage clubs([Hermanos Unidos](http://hermanosunidos.org/), [Hermanas Unidas](https://hermanasunidasinc.com/), [Society of Hispanic Engineers](https://shpe.org/membership/regions/), etc).
+1. Attend heritage clubs ([Hermanos Unidos](http://hermanosunidos.org/), [Hermanas Unidas](https://hermanasunidasinc.com/), [Society of Hispanic Engineers](https://shpe.org/membership/regions/), etc).
 2. I used to go to Mexican restaurants & cafes. I had great food to remind me of home and ended up befriending the staff.
 3. Go back home as needed. The United States has a hyper-individualistic society, and I have found that it makes some people believe that to be independent truly, they have to be on their own, but that is not true. We need and rely on our community, so return to yours as needed to recharge and refocus.
 
