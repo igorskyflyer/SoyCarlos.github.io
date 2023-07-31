@@ -9,6 +9,11 @@ plugins:
 sass:
   sourcemap: never
 
+collections:
+  notes:
+    output: true
+
+
 postcss:
   cache: false
 
