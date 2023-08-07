@@ -21,7 +21,7 @@ for more.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a22ca4cf-cb1f-4bf3-9fbc-2833226e9b8e/deploy-status)](https://app.netlify.com/sites/jekyll-tailwind/deploys)
 
-## Getting Started
+## Getting Started  
 
 ```bash
 git clone git@github.com:stefcoetzee/jekyll-tailwind your-site
