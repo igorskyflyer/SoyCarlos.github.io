@@ -8,6 +8,10 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [tailwind(), mdx(), react()],
   output: "hybrid",
-  adapter: vercel(),
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
   renderers: ["@astrojs/renderer-react"],
 });
