@@ -24,6 +24,8 @@ const notesCollection = defineCollection({
         title: z.string(),
         publishDate: z.string(),
         updatedDate: z.string(),
+        videoID: z.string().optional(),
+        videoLink: z.string().url().optional(),
     })
 }); 
 
